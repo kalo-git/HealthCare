@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
