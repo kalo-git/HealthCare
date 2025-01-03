@@ -1,36 +1,33 @@
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white mt-5">
-        <div class="container">
-            <div class="row py-4">
-                <div class="col-md-4">
-                    <h5>About Us</h5>
-                    <p>Information about the NGO.</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Contact Us</h5>
-                    <p>Email: info@ngo.org</p>
-                    <p>Phone: +123 456 7890</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Follow Us</h5>
-                    <a href="#" class="text-white">Facebook</a><br>
-                    <a href="#" class="text-white">Twitter</a><br>
-                    <a href="#" class="text-white">Instagram</a>
-                </div>
+<!-- Footer -->
+<footer class="bg-dark text-white mt-5">
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-md-4">
+                <h5 class="text-white">About Us</h5>
+                <p class="text-white">Information about the NGO.</p>
             </div>
-            <div class="row">
-                <div class="col-12 text-center py-3">
-                    <p>&copy; 2023 NGO. All rights reserved. Designed by Duant.</p>
-                </div>
+            <div class="col-md-4">
+                <h5 class="text-white">Contact Us</h5>
+                <p class="text-white">Email: <a href="mailto:info@ngo.org" class="text-white">info@ngo.org</a></p>
+                <p class="text-white">Phone: +123 456 7890</p>
+            </div>
+            <div class="col-md-4">
+                <h5 class="text-white">Follow Us</h5>
+                <a href="#" class="text-white" target="_blank" rel="noopener noreferrer">Facebook</a><br>
+                <a href="#" class="text-white" target="_blank" rel="noopener noreferrer">Twitter</a><br>
+                <a href="#" class="text-white" target="_blank" rel="noopener noreferrer">Instagram</a>
             </div>
         </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
+        <div class="row">
+            <div class="col-12 text-center py-3">
+                <p class="text-white">&copy; <?php echo date('Y'); ?> NGO. All rights reserved. Designed by Duant.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End of Footer -->
+    
 
 
 <!-- Bootstrap JS and dependencies -->
