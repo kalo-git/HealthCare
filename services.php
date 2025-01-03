@@ -4,7 +4,12 @@ include 'functions.php';
 // include('functions.php');
 include 'includes/header.php';
 ?>
-<div class="container my-5">
+<style>
+    .orc {
+        margin-top: 125px;
+    }
+</style>
+<div class="container orc">
     <h1 class="text-center mb-4">Our Services</h1>
     <div class="row g-4">
         <?php

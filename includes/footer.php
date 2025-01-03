@@ -21,7 +21,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center py-3">
-                <p class="text-white">&copy; <?php echo date('Y'); ?> NGO. All rights reserved. Designed by Duant.</p>
+                <p class="text-white">&copy; <?php echo date('Y'); ?> NGO. All rights reserved. Designed by Giridhari</p>
             </div>
         </div>
     </div>
