@@ -14,6 +14,7 @@
             align-items: center;
             text-align: center;
             padding: 20px;
+            margin-top: 40px;
         }
         .hero h1 {
             font-size: 4rem;
