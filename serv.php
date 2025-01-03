@@ -8,33 +8,33 @@
         // Services array
         $services = [
             [
-                "img" => "assets/images/kenburns-bg-1.jpg",
+                "img" => "assets/img/Network-services-scaled.webp",
                 "title" => "Service 1",
                 "short_description" => "A brief overview of Service 1.",
                 "long_description" => "Detailed description of Service 1 goes here. It can include all the necessary details and features of this service."
             ],
             [
-                "img" => "assets/images/kenburns-bg-1.jpg",
+                "img" => "assets/img/Network-services-scaled.webp",
                 "title" => "Service 2",
                 "short_description" => "A brief overview of Service 2.",
                 "long_description" => "Detailed description of Service 2 goes here. It can include all the necessary details and features of this service."
             ],
             [
-                "img" => "assets\images\meditate.jpg",
+                "img" => "assets/img/Network-services-scaled.webp",
                 "title" => "Meditation",
                 "short_description" => "Meditation is a mental practice designed to cultivate awareness, focus, and relaxation. ",
                 "long_description" => "Meditation is a mental practice designed to cultivate awareness, focus, and relaxation. It has been practiced for thousands of years across various cultures and spiritual traditions.
                      Modern meditation techniques are often used for stress reduction, mental clarity, and emotional well-being."
             ],
             [
-                "img" => "assets\images\Yoga-Sessions.jpg",
+                "img" => "assets/img/Network-services-scaled.webp",
                 "title" => "Yoga Sessions",
                 "short_description" => "Yoga sessions are structured practices that combine physical postures (asanas), breathing techniques (pranayama), and mindfulness or meditation to promote physical, mental, and emotional well-being. ",
                 "long_description" => "Yoga sessions are structured practices that combine physical postures (asanas), breathing techniques (pranayama), and mindfulness or meditation to promote physical, mental, and emotional well-being. Each session typically begins with a warm-up, progresses through various poses to improve strength, flexibility, and balance, and concludes with relaxation or meditation. Yoga sessions can be tailored to individual needs, ranging from gentle restorative practices to more vigorous styles like Vinyasa or Ashtanga. Regular 
                     yoga sessions help reduce stress, enhance physical health, improve mental clarity, and foster a sense of inner calm and balance."
             ],
             [
-                "img" => "assets/images/Yajana.jpg",
+                "img" => "assets/img/Network-services-scaled.webp",
                 "title" => "Yajnas (Hawans)",
                 "short_description" => "Yajnas (Hawans) are ancient Vedic rituals involving offerings made into a sacred fire accompanied by the chanting of mantras. They are central to Hindu spiritual practices and symbolize purification, gratitude, and the connection between humans, nature, and the divine.",
                 "long_description" => "Yajnas (Hawans) are ancient Vedic rituals involving offerings made into a sacred fire accompanied by the chanting of mantras. They are central to Hindu spiritual practices and symbolize purification, gratitude, and the connection between humans, nature, and the divine.
@@ -42,7 +42,7 @@
                         These rituals emphasize devotion, community participation, and alignment with universal cosmic principles, fostering spiritual growth and well-being."
             ],
             [
-                "img" => "assets/images/MudBath.jpg",
+                "img" => "assets/img/Network-services-scaled.webp",
                 "title" => "Mud Bath Therapy",
                 "short_description" => "Mud bath therapy is a therapeutic treatment that involves immersing the body in a mixture of mineral-rich mud and water. This practice, rooted in ancient traditions, is known for its detoxifying, anti-inflammatory,",
                 "long_description" => "Mud bath therapy is a therapeutic treatment that involves immersing the body in a mixture of mineral-rich mud and water. This practice, rooted in ancient traditions, is known for its detoxifying, anti-inflammatory, and rejuvenating properties. The minerals in the mud help to cleanse the skin, improve circulation, relieve muscle and joint pain, and reduce stress. Commonly used in spa treatments and wellness programs, 

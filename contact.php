@@ -7,23 +7,30 @@ include 'includes/header.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Retrieve and sanitize form data
-    $name = htmlspecialchars($_POST['name']);
-    $phone = htmlspecialchars($_POST['phone']);
-    $email = htmlspecialchars($_POST['email']);
-    $message = htmlspecialchars($_POST['message']);
+    $name = htmlspecialchars(trim($_POST['name']));
+    $phone = htmlspecialchars(trim($_POST['phone']));
+    $email = htmlspecialchars(trim($_POST['email']));
+    $message = htmlspecialchars(trim($_POST['message']));
 
-    // WhatsApp Message
-    $whatsapp_number = '7477835515';
+    // Validate the form data
+    if (!empty($name) && !empty($phone) && !empty($email) && !empty($message)) {
 
-    // Correct the WhatsApp message format
-    $whatsapp_message = "New Booking Inquiry:\nName: $name\nPhone: $phone\nemail: $email\nMessage: $message";
+        // WhatsApp Message
+        $whatsapp_number = '9937062438';
 
-    // Create WhatsApp URL with properly encoded message
-    $whatsapp_url = "https://wa.me/$whatsapp_number?text=" . urlencode($whatsapp_message);
+        // Correct the WhatsApp message format
+        $whatsapp_message = "Vitality Health Care:\nName: $name\nPhone: $phone\nEmail: $email\nMessage: $message";
 
-    // Redirect to WhatsApp
-    header("Location: $whatsapp_url");
-    exit();
+        // Create WhatsApp URL with properly encoded message
+        $whatsapp_url = "https://wa.me/$whatsapp_number?text=" . urlencode($whatsapp_message);
+
+        // Redirect to WhatsApp
+        header("Location: $whatsapp_url");
+        exit();
+    } else {
+        // Display an error message if any form fields are empty
+        echo "<script>alert('Please fill in all fields');</script>";
+    }
 }
 
 ?>
@@ -48,8 +55,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <input type="email" class="form-control" id="email" name="email" required>
                 </div>
                 <div class="mb-3">
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" required>
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="form-control" required>
                 </div>
                 <div class="mb-3">
                     <label for="message" class="form-label">Your Message</label>
