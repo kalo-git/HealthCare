@@ -40,6 +40,8 @@ $buttons = [
         .hero .content {
             position: relative;
             z-index: 2;
+            max-width: 800px; /* Ensures content doesn't stretch too wide */
+            padding: 20px;
         }
 
         .hero h1 {
@@ -73,11 +75,24 @@ $buttons = [
         /* Responsive adjustments */
         @media (max-width: 768px) {
             .hero h1 {
-                font-size: 2.5rem;
+                font-size: 2.5rem; /* Smaller font on mobile */
             }
 
             .hero h2 {
-                font-size: 1.2rem;
+                font-size: 1.2rem; /* Smaller subtitle on mobile */
+            }
+
+            .hero .content {
+                padding: 15px; /* Slightly smaller padding on mobile */
+            }
+
+            .hero .btn {
+                font-size: 1rem; /* Slightly smaller buttons on mobile */
+                width: 100%; /* Buttons take full width on mobile */
+            }
+
+            .hero .btn:not(:last-child) {
+                margin-bottom: 10px; /* Add spacing between stacked buttons */
             }
         }
     </style>
@@ -87,10 +102,12 @@ $buttons = [
         <div class="content">
             <h1><?php echo $title; ?></h1>
             <h2><?php echo $subtitle; ?></h2>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex flex-column flex-md-row justify-content-center">
                 <?php foreach ($buttons as $button): ?>
                     <a href="<?php echo $button['link']; ?>" class="btn btn-<?php echo $button['type']; ?>"><?php echo $button['text']; ?></a>
                 <?php endforeach; ?>
             </div>
         </div>
     </section>
+
+    
