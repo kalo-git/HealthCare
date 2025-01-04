@@ -8,17 +8,17 @@ include('functions.php'); // Include the functions file
 <?php
 // Gallery items - you can replace these with dynamic data (e.g., from a database)
 $images = [
-    ["src" => "assets/images/kenburns-bg-1.jpg", "alt" => "Image 1", "title" => "Title 1"],
-    ["src" => "assets/images/kenburns-bg-1.jpg", "alt" => "Image 1", "title" => "Title 1"],
-    ["src" => "assets/images/kenburns-bg-1.jpg", "alt" => "Image 1", "title" => "Title 1"],
-    ["src" => "assets/images/kenburns-bg-1.jpg", "alt" => "Image 1", "title" => "Title 1"],
-    ["src" => "assets/images/kenburns-bg-1.jpg", "alt" => "Image 1", "title" => "Title 1"],
-    ["src" => "assets/images/kenburns-bg-1.jpg", "alt" => "Image 1", "title" => "Title 1"],
-    ["src" => "assets/images/kenburns-bg-1.jpg", "alt" => "Image 1", "title" => "Title 1"],
-    ["src" => "assets/images/kenburns-bg-1.jpg", "alt" => "Image 1", "title" => "Title 1"],
-    ["src" => "assets/images/kenburns-bg-1.jpg", "alt" => "Image 1", "title" => "Title 1"],
-    ["src" => "assets/images/kenburns-bg-1.jpg", "alt" => "Image 1", "title" => "Title 1"],
-    ["src" => "assets/images/kenburns-bg-1.jpg", "alt" => "Image 1", "title" => "Title 1"],
+    ["src" => "assets/img/pexels-olly-3764579.jpg", "alt" => "Image 1", "title" => "Title 1"],
+    ["src" => "assets/img/pexels-quang-nguyen-vinh-222549-2176593.jpg", "alt" => "Image 1", "title" => "Title 1"],
+    ["src" => "assets/img/pexels-simon73-1323550.jpg", "alt" => "Image 1", "title" => "Title 1"],
+    ["src" => "assets/img/pexels-olly-3764579.jpg", "alt" => "Image 1", "title" => "Title 1"],
+    ["src" => "assets/img/pexels-quang-nguyen-vinh-222549-2176593.jpg", "alt" => "Image 1", "title" => "Title 1"],
+    ["src" => "assets/img/pexels-simon73-1323550.jpg", "alt" => "Image 1", "title" => "Title 1"],
+    ["src" => "assets/img/pexels-olly-3764579.jpg", "alt" => "Image 1", "title" => "Title 1"],
+    ["src" => "assets/img/pexels-quang-nguyen-vinh-222549-2176593.jpg", "alt" => "Image 1", "title" => "Title 1"],
+    ["src" => "assets/img/pexels-simon73-1323550.jpg", "alt" => "Image 1", "title" => "Title 1"],
+    ["src" => "assets/img/pexels-quang-nguyen-vinh-222549-2176593.jpg", "alt" => "Image 1", "title" => "Title 1"],
+    ["src" => "assets/img/pexels-olly-3764579.jpg", "alt" => "Image 1", "title" => "Title 1"],
     // Add more images as needed
 ];
 ?>

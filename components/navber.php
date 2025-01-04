@@ -1,6 +1,4 @@
 <style>
-
-
 /* Glossy Navbar Styling */
 .glossy-navbar {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(240, 240, 240, 0.8) 50%, rgba(225, 225, 225, 0.8) 100%);
@@ -35,9 +33,8 @@
     transform: scale(1.05);
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
 }
-
-
 </style>
+
 <nav class="navbar navbar-expand-lg navbar-light glossy-navbar fixed-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php">
@@ -55,8 +52,17 @@
                 <li class="nav-item">
                     <a class="nav-link" href="services.php">Services</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.php">Gallery</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Gallery
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="gallery_page1.php">Gallery Page 1</a></li>
+                        <li><a class="dropdown-item" href="gallery_page2.php">Gallery Page 2</a></li>
+                        <li><a class="dropdown-item" href="gallery_page3.php">Gallery Page 3</a></li>
+                        <li><a class="dropdown-item" href="gallery_page4.php">Gallery Page 4</a></li>
+                        <li><a class="dropdown-item" href="gallery_page5.php">Gallery Page 5</a></li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.php">About</a>
@@ -74,4 +80,3 @@
         </div>
     </div>
 </nav>
-
