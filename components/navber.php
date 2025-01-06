@@ -1,3 +1,5 @@
+
+
 <style>
 /* Glossy Navbar Styling */
 .glossy-navbar {
@@ -57,11 +59,11 @@
                         Gallery
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="gallery_page1.php">Gallery Page 1</a></li>
-                        <li><a class="dropdown-item" href="gallery_page2.php">Gallery Page 2</a></li>
-                        <li><a class="dropdown-item" href="gallery_page3.php">Gallery Page 3</a></li>
+                        <li><a class="dropdown-item" href="Gallery.php">Photo Gallery</a></li>
+                        <li><a class="dropdown-item" href="certificate.php">Certificate</a></li>
+                        <!-- <li><a class="dropdown-item" href="gallery_page3.php">Gallery Page 3</a></li>
                         <li><a class="dropdown-item" href="gallery_page4.php">Gallery Page 4</a></li>
-                        <li><a class="dropdown-item" href="gallery_page5.php">Gallery Page 5</a></li>
+                        <li><a class="dropdown-item" href="gallery_page5.php">Gallery Page 5</a></li> -->
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -70,12 +72,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="btn btn-info text-white" href="book_now.php">Book Now</a>
                 </li>
                 <li class="nav-item">
                     <a class="btn btn-info text-white" href="payment.php">Payment Now</a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>
