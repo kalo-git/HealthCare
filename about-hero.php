@@ -122,7 +122,7 @@ p {
   <div class="info-sidebar info-slider-text me-lg-4">
     <ul class="list-unstyled">
       <li onmouseover="showContent('HEALTHCARE')" id="HEALTHCARE_sidebar" class="bold">
-        <img src="assets/img/blank-doctor-2.png" alt="Healthcare Consulting Image" class="img-fluid mb-3" />
+        <img src="assets/img/djgiri.jpg" alt="Healthcare Consulting Image" class="img-fluid mb-3" />
       </li>
     </ul>
   </div>
