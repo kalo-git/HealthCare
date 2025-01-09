@@ -51,8 +51,17 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="services.php">Services</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="Doctor.php">Doctor</a></li>
+                        <li><a class="dropdown-item" href="certificate.php">Certificate</a></li>
+                        <!-- <li><a class="dropdown-item" href="gallery_page3.php">Gallery Page 3</a></li>
+                        <li><a class="dropdown-item" href="gallery_page4.php">Gallery Page 4</a></li>
+                        <li><a class="dropdown-item" href="gallery_page5.php">Gallery Page 5</a></li> -->
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

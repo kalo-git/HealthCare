@@ -131,9 +131,13 @@ p {
   <div class="info-main-content">
     <div id="HEALTHCARE" class="content-section active">
       <!-- Content for Healthcare -->
-      <p>Vitality Healthcare stands at the forefront of healthcare consulting, combining the dynamism of a young and enthusiastic team with the wisdom of seasoned industry professionals. Our leadership team...</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quod magnam sunt? Beatae voluptate mollitia quaerat ad possimus omnis eum? Distinctio provident quae sit est vero a nostrum aut excepturi eos. Molestiae delectus earum officia quas facilis commodi atque fuga corrupti repellat perferendis ullam consequuntur voluptate ea inventore error suscipit nulla tenetur itaque fugiat repellendus distinctio aut veritatis, nam blanditiis! Nam repellendus id dolorem recusandae quo aspernatur officiis sed, quas beatae eum nihil facere alias dolorum distinctio nemo autem porro! Magnam quos tempore excepturi, numquam iste iure consequuntur unde et dolorem voluptate libero magni quasi, inventore tempora sunt perspiciatis. Optio!</p>
-    </div>
+      <p>
+
+      Vitality Health Care A unit of Being Friends Connecting People’s Foundation. Established in 2024 in Soro, Balasore,Odisha, India 756045. 
+      Vitality Health Care offers expert health care consulting and premier requirements services for health care.
+
+      </p>  
+     </div>
   </div>
 </div>
 
